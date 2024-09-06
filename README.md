@@ -2,6 +2,30 @@
 
 This repository demonstrates an issue we are currently facing with Webreader when working with XHTML files.
 
+## Project Setup
+
+### Node.js
+
+#### 1. Install node 21 using the node verison manager of your choice
+
+- To verify, run `node --version` and ensure it is >= 21
+
+#### 2. Install the project dependencies using npm
+
+```bash
+npm install
+```
+
+#### 3. Start the dev server
+
+```bash
+npm run dev
+```
+
+### 4. Open the application in a web browser
+
+You should now be able to access the application at http://localhost:3000
+
 ## Overview
 
 This repository was created specifically to showcase a scenario where the error occurs. In this case, we attempt to use an `<img>` tag in an XHTML file, which results in the following error message when launching the Webreader:
